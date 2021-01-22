@@ -1,0 +1,41 @@
+[
+    {
+        "kodlar": {
+            "ready": {
+                "isim": "ready.js (V12)",
+                "id": "OCOaK46IYu",
+                "desc": "Ready.js botun durumu kısaca",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "main_code": "//ready.js atılacak (olmassa main dosyanıza yani bot.js ye atın)\r\n\r\n\r\n//READY.JS\r\n\r\nconst Discord = require('discord.js');\r\nconst client = new Discord.Client();\r\nclient.on('ready', async () => {\r\n   client.appInfo = await client.fetchApplication();\r\n  setInterval( async () => {\r\n    client.appInfo = await client.fetchApplication();\r\n  }, 600);\r\n  \r\n client.user.setActivity(`discord.gg/codework`, { type:'WATCHING' })\r\n  \r\n  console.log(\"CodeWork Akıyor!!\")\r\n});\r\n\r\nconst log = message => {\r\n  console.log(` ${message}`);\r\n};\r\nrequire('./util/eventLoader.js')(client);\r\n\r\n//READY.JS SON",
+                "komutlar_code": "yok",
+                "kod_rank": "javascript",
+                "k_adi": "Barann",
+                "date": "1/7/2021"
+            },
+            "message": {
+                "isim": "message.js",
+                "id": "hCuJcd3nam",
+                "desc": "message.js kodu",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "main_code": "//MESSAGE.JS YE ATILACAK\r\n\r\nconst Discord = require(\"discord.js\");\r\nconst ayarlar = require('../ayarlar.json');\r\nlet talkedRecently = new Set();\r\n\r\nmodule.exports = message => {\r\n  if (talkedRecently.has(message.author.id)) {\r\n    return;\r\n  }\r\n  talkedRecently.add(message.author.id);\r\n    setTimeout(() => {\r\n    talkedRecently.delete(message.author.id);\r\n  }, 2500);\r\n  let client = message.client;\r\n  if (message.author.bot) return;\r\n  if (!message.content.startsWith(ayarlar.prefix)) return;\r\n  let command = message.content.split(' ')[0].slice(ayarlar.prefix.length);\r\n  let params = message.content.split(' ').slice(1);\r\n  let perms = client.elevation(message);\r\n  let cmd;\r\n  if (client.commands.has(command)) {\r\n    cmd = client.commands.get(command);\r\n  } else if (client.aliases.has(command)) {\r\n    cmd = client.commands.get(client.aliases.get(command));\r\n  }\r\n  if (cmd) {\r\n    if (perms < cmd.conf.permLevel) return;\r\n    cmd.run(client, message, params, perms);\r\n  }\r\n\r\n};",
+                "komutlar_code": "YOK",
+                "kod_rank": "javascript",
+                "k_adi": "Barann",
+                "date": "1/7/2021"
+            },
+            "Test Komutu": {
+                "isim": "Test Komutu",
+                "sürüm": "v12",
+                "id": "a9lkFzQcZn",
+                "desc": "Test Yapıyoruz deneme",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "main_code": "deneme",
+                "komutlar_code": "deneme",
+                "kod_rank": "javascript",
+                "k_adi": "Barann",
+                "k_tagi": "7400",
+                "date": "1/10/2021"
+            }
+        }
+    }
+]

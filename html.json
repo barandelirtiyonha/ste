@@ -1,0 +1,17 @@
+[
+    {
+        "kodlar": {
+            "Html Etiket Bilgileri": {
+                "isim": "Html Etiket Bilgileri",
+                "id": "l7vql6YBdQ",
+                "desc": "Etiket kodlarının anlamlarını gösterir.",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "main_code": "<!--...-->    Açıklama eklemek.\r\n<!DOCTYPE>     Dosya türünü yazmak.\r\n<a>    Bağlantı vermek.\r\n<abbr>    Kısaltma.\r\n<acronym>    Kısaltmayı açıklamak.\r\n<address>    Adres vermek.\r\n<area>    Resim üzerinde alan belirtmek.\r\n<b>    Kalın yazmak.\r\n<base>    Tüm bağlantılar için ana yolu bildirme.\r\n<bdo>    Yazı yönünü bildirme.\r\n<big>    Büyük yazmak.\r\n<blockquote>    Alıntı yapmak.\r\n<body>    İçeriğe başlangıcı bildirmek.\r\n<br>    Satır atlamak.\r\n<button>    Buton eklemek.\r\n<caption>    Tablo başlığı belirtme.\r\n<center>    Hizayı ortalar.\r\n<cite>    Alıntı yapmak.\r\n<code>    Bilgisayar kodu şeklinde yazmak.\r\n<col>    Tablo sütununu belirtme.\r\n<colgroup>    Tablo sütun gruplarını belirtme.\r\n<dd>    Açıklama eklemek.\r\n<del>    Üstü çizili yazı yazmak.\r\n<div>    Dosyada alan belirtme.\r\n<dfn>    Bir terim açıklamak.\r\n<dl>    Terimler listesi.\r\n<dt>    Terim açıklamak.\r\n<em>    Vurgulu yazı.\r\n<fieldset>    Alan belirleme.\r\n<form>    Form kullanma.\r\n<frame>    Alt pencere açmak (frame)\r\n<frameset>    Alt pencereleri tanımlamaya başlamak.\r\n<h1> to <h6>    Başlık (1-6 arası)\r\n<head>    Dosya bilgilerini açıklama bölümü.\r\n<hr>    Yatay çizgi çekmek.\r\n<html>    HTML'ye başlamak.\r\n<i>    Sağa yatık yazmak.\r\n<img>    Resim eklemek.\r\n<input>    Form nesnesi eklemek.\r\n<ins>    Vurgu yapmak.\r\n<kbd>    Kelime yazdırma.\r\n<label>    Etiket belirleme.\r\n<legend>    Bir alan için başlık belirleme.\r\n<li>    Listeleme.\r\n<link>    Dosyaya bağlantı verme.\r\n<map>    Resim tanımlama.\r\n<meta>    Dosya bilgisi tanımlama.\r\n<noscript>    Script desteği yoksa yapılacaklar.\r\n<object>    Bir obje ekleme (flash vs.)\r\n<ol>    Numaralandırılmış liste ekleme.\r\n<optgroup>    Seçim grubu.\r\n<option>    Sürükle-bırak seçim listesi.\r\n<p>    Paragraf.\r\n<param>    Parametre bildirme.\r\n<pre>    Formatlı yazı ekleme.\r\n<q>    Küçük alıntılar için.\r\n<samp>    Bilgisayar yazı tipi kullanma.\r\n<script>    Script tanımlama.\r\n<select>    Seçim kutusu tanımlama.\r\n<small>    Küçük yazma.\r\n<span>    Bir alan tanımlaması.\r\n<strong>    Vurgu yapmak.\r\n<style>    Stil belirleme.\r\n<sub>    Normalden aşağı yazı.\r\n<sup>    Üs yazmak.\r\n<table>    Tabloya başlamak.\r\n<tbody>    Tablo başlangıcı.\r\n<td>    Sütun belirleme.\r\n<textarea>    Metin kutusu.\r\n<tfoot>    Tablo altlığı.\r\n<th>    Tablo başlığı.\r\n<thead>    Tablo başlığı.\r\n<title>    HTML Dosyası başlığı.\r\n<tr>    Satır belirleme (tablo).\r\n<tt>    TT Yazı.\r\n<ul>    Madde işaretli liste.\r\n<var>    Değer.\r\n<xmp>    PRE komutunun aynısı.",
+                "komutlar_code": "komutlar veya main yok.",
+                "kod_rank": "html",
+                "k_adi": "Barann",
+                "date": "1/7/2021"
+            }
+        }
+    }
+]

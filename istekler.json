@@ -1,0 +1,604 @@
+[
+    {
+        "kodlar": {
+            "Ban Komutu": {
+                "isim": "Ban Komutu",
+                "sürüm": "v12",
+                "not": "yok",
+                "id": "YJKZ5yZnpx",
+                "desc": "ban komutu adminler banlayabilsin",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "kod_rank": "istekler",
+                "k_adi": "Barann",
+                "k_tagi": "7400",
+                "idsi": {
+                    "id": "536470606166622208",
+                    "username": "Barann",
+                    "avatar": "c28b36020096094bd7efdfc94105e804",
+                    "discriminator": "7400",
+                    "public_flags": 256,
+                    "flags": 256,
+                    "locale": "tr",
+                    "mfa_enabled": true,
+                    "provider": "discord",
+                    "accessToken": "owF6j7sLBvKdm33WPsv2mGiJkyP0UV",
+                    "guilds": [
+                        {
+                            "id": "152570360422858752",
+                            "name": "U4",
+                            "icon": "a_18197b9a79431b82d1793584a9e5176d",
+                            "owner": false,
+                            "permissions": 37064512,
+                            "features": [
+                                "DISCOVERABLE",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "VANITY_URL",
+                                "BANNER",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "VIP_REGIONS",
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "WELCOME_SCREEN_ENABLED",
+                                "NEWS",
+                                "PARTNERED"
+                            ],
+                            "permissions_new": "37064512"
+                        },
+                        {
+                            "id": "216535040094371840",
+                            "name": "Hydra Networkz",
+                            "icon": "a_bd783f0e729e15bbfa30ed938a43e689",
+                            "owner": false,
+                            "permissions": 37080641,
+                            "features": [
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "DISCOVERABLE",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "WELCOME_SCREEN_ENABLED",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37080641"
+                        },
+                        {
+                            "id": "232457884867362816",
+                            "name": "UNLOSTV Ailesi",
+                            "icon": "a_9b44497f4b705ff80df550ad44c60a15",
+                            "owner": false,
+                            "permissions": 1117184,
+                            "features": [
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "VANITY_URL",
+                                "BANNER",
+                                "ANIMATED_ICON",
+                                "NEWS",
+                                "VIP_REGIONS",
+                                "PARTNERED"
+                            ],
+                            "permissions_new": "1117184"
+                        },
+                        {
+                            "id": "329256077990297604",
+                            "name": "Elraenn",
+                            "icon": "a_0fe751a73af3271e42b29e670dc54c4a",
+                            "owner": false,
+                            "permissions": 37080577,
+                            "features": [
+                                "DISCOVERABLE",
+                                "VANITY_URL",
+                                "BANNER",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "VIP_REGIONS",
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "NEWS",
+                                "PARTNERED"
+                            ],
+                            "permissions_new": "37080577"
+                        },
+                        {
+                            "id": "370734435353624576",
+                            "name": "Evon Club",
+                            "icon": "c777cb17d031441e653afd827c2666e4",
+                            "owner": false,
+                            "permissions": 104189505,
+                            "features": [
+                                "DISCOVERABLE",
+                                "VANITY_URL",
+                                "BANNER",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "VIP_REGIONS",
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "NEWS",
+                                "PARTNERED"
+                            ],
+                            "permissions_new": "104189505"
+                        },
+                        {
+                            "id": "646690105020514305",
+                            "name": "Awm Bilişim Hizmetleri",
+                            "icon": "a_9048d4dd85f7bfa673e0f6a371829ecf",
+                            "owner": false,
+                            "permissions": 37084736,
+                            "features": [
+                                "COMMUNITY",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "INVITE_SPLASH",
+                                "VANITY_URL",
+                                "BANNER",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37084736"
+                        },
+                        {
+                            "id": "681184274011258907",
+                            "name": "ᴘᴀʀs ʀᴏʟᴇᴘʟᴀʏ | 𝟿 ᴅɪʏᴀʀ",
+                            "icon": "a_696968905dfcf53a53aca4fa1af79498",
+                            "owner": false,
+                            "permissions": 37047360,
+                            "features": [
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "BANNER",
+                                "WELCOME_SCREEN_ENABLED",
+                                "ANIMATED_ICON",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37047360"
+                        },
+                        {
+                            "id": "683286631943634971",
+                            "name": "ParsRP-DarkRP --> #EVDEKAL",
+                            "icon": "30b0507bcdfeb008beff44945e681955",
+                            "owner": false,
+                            "permissions": 37080640,
+                            "features": [
+                                "COMMUNITY",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37080640"
+                        },
+                        {
+                            "id": "707632395397890058",
+                            "name": "CodeWork #BAKIM",
+                            "icon": "af05eab65a9c57b0f8554e91df9e7c78",
+                            "owner": true,
+                            "permissions": 2147483647,
+                            "features": [
+                                "COMMUNITY",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "INVITE_SPLASH",
+                                "WELCOME_SCREEN_ENABLED",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "NEWS"
+                            ],
+                            "permissions_new": "2147483647"
+                        },
+                        {
+                            "id": "712978502176997380",
+                            "name": "jkood Test",
+                            "icon": "5f5fb5056688e5b1a62ab13d4cab37ff",
+                            "owner": true,
+                            "permissions": 2147483647,
+                            "features": [],
+                            "permissions_new": "2147483647"
+                        },
+                        {
+                            "id": "741807561581264916",
+                            "name": "</> Kinsta Codes",
+                            "icon": "a_93e18422397af4e3f8b4761e54b82a63",
+                            "owner": false,
+                            "permissions": 36818497,
+                            "features": [],
+                            "permissions_new": "36818497"
+                        },
+                        {
+                            "id": "746647015643152404",
+                            "name": "Mad Jailbreak",
+                            "icon": "11b92d57bc98d8f73e435f2c03c4a622",
+                            "owner": true,
+                            "permissions": 2147483647,
+                            "features": [],
+                            "permissions_new": "2147483647"
+                        },
+                        {
+                            "id": "763141301985214485",
+                            "name": "RedHatzz",
+                            "icon": "7f600d4dbdbf14fc052bd0a7de50aec2",
+                            "owner": false,
+                            "permissions": 104189505,
+                            "features": [
+                                "COMMUNITY",
+                                "NEWS"
+                            ],
+                            "permissions_new": "104189505"
+                        },
+                        {
+                            "id": "766603303445463060",
+                            "name": "Eightborn JailBreak",
+                            "icon": "a_db999fd5f5ac4a4b6292083b9da5c58e",
+                            "owner": false,
+                            "permissions": 37030913,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "WELCOME_SCREEN_ENABLED",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37030913"
+                        },
+                        {
+                            "id": "767027346308857897",
+                            "name": "🎄 Pink Code #BotList",
+                            "icon": "a_c324d623781e4076e5a254d6b5edc3ea",
+                            "owner": false,
+                            "permissions": 37080641,
+                            "features": [
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "VANITY_URL",
+                                "BANNER",
+                                "ANIMATED_ICON",
+                                "PREVIEW_ENABLED",
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "WELCOME_SCREEN_ENABLED",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37080641"
+                        },
+                        {
+                            "id": "771400046766718986",
+                            "name": "BORP | Community",
+                            "icon": "62697df39c1ab388db8146c0d8345677",
+                            "owner": false,
+                            "permissions": 512,
+                            "features": [
+                                "COMMUNITY",
+                                "INVITE_SPLASH",
+                                "BANNER",
+                                "WELCOME_SCREEN_ENABLED",
+                                "ANIMATED_ICON",
+                                "NEWS"
+                            ],
+                            "permissions_new": "512"
+                        },
+                        {
+                            "id": "772791113169371146",
+                            "name": "uiy corona",
+                            "icon": "b372f50f68fd12ac9f0b75ea934b1d75",
+                            "owner": false,
+                            "permissions": 104320577,
+                            "features": [],
+                            "permissions_new": "104320577"
+                        },
+                        {
+                            "id": "774971396925292544",
+                            "name": "Dyatlov Family",
+                            "icon": "6fea9f1cd57a41e5c4812e34a4a14278",
+                            "owner": false,
+                            "permissions": 37215809,
+                            "features": [],
+                            "permissions_new": "37215809"
+                        }
+                    ],
+                    "fetchedAt": "2021-01-19T18:25:37.659Z"
+                },
+                "date": "1/19/2021"
+            },
+            "Ban": {
+                "isim": "Ban",
+                "sürüm": "v12",
+                "not": "test",
+                "id": "kSivWQRvuL",
+                "desc": "test",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "kod_rank": "istekler",
+                "k_adi": "Barann",
+                "k_tagi": "7400",
+                "idsi": {
+                    "id": "536470606166622208",
+                    "username": "Barann",
+                    "avatar": "c28b36020096094bd7efdfc94105e804",
+                    "discriminator": "7400",
+                    "public_flags": 256,
+                    "flags": 256,
+                    "locale": "tr",
+                    "mfa_enabled": true,
+                    "provider": "discord",
+                    "accessToken": "owF6j7sLBvKdm33WPsv2mGiJkyP0UV",
+                    "guilds": [
+                        {
+                            "id": "152570360422858752",
+                            "name": "U4",
+                            "icon": "a_18197b9a79431b82d1793584a9e5176d",
+                            "owner": false,
+                            "permissions": 37064512,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "INVITE_SPLASH",
+                                "DISCOVERABLE",
+                                "COMMUNITY",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "BANNER",
+                                "PREVIEW_ENABLED",
+                                "NEWS",
+                                "PARTNERED",
+                                "WELCOME_SCREEN_ENABLED",
+                                "VIP_REGIONS",
+                                "VANITY_URL"
+                            ],
+                            "permissions_new": "37064512"
+                        },
+                        {
+                            "id": "216535040094371840",
+                            "name": "Hydra Networkz",
+                            "icon": "a_bd783f0e729e15bbfa30ed938a43e689",
+                            "owner": false,
+                            "permissions": 37080641,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "PREVIEW_ENABLED",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "INVITE_SPLASH",
+                                "DISCOVERABLE",
+                                "COMMUNITY",
+                                "NEWS",
+                                "WELCOME_SCREEN_ENABLED"
+                            ],
+                            "permissions_new": "37080641"
+                        },
+                        {
+                            "id": "232457884867362816",
+                            "name": "UNLOSTV Ailesi",
+                            "icon": "a_9b44497f4b705ff80df550ad44c60a15",
+                            "owner": false,
+                            "permissions": 1117184,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "PARTNERED",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "BANNER",
+                                "VIP_REGIONS",
+                                "NEWS",
+                                "VANITY_URL"
+                            ],
+                            "permissions_new": "1117184"
+                        },
+                        {
+                            "id": "329256077990297604",
+                            "name": "Elraenn",
+                            "icon": "a_0fe751a73af3271e42b29e670dc54c4a",
+                            "owner": false,
+                            "permissions": 37080577,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "INVITE_SPLASH",
+                                "DISCOVERABLE",
+                                "COMMUNITY",
+                                "BANNER",
+                                "PREVIEW_ENABLED",
+                                "NEWS",
+                                "PARTNERED",
+                                "VIP_REGIONS",
+                                "VANITY_URL"
+                            ],
+                            "permissions_new": "37080577"
+                        },
+                        {
+                            "id": "370734435353624576",
+                            "name": "Evon Club",
+                            "icon": "c777cb17d031441e653afd827c2666e4",
+                            "owner": false,
+                            "permissions": 104189505,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "ENABLED_DISCOVERABLE_BEFORE",
+                                "INVITE_SPLASH",
+                                "DISCOVERABLE",
+                                "COMMUNITY",
+                                "BANNER",
+                                "PREVIEW_ENABLED",
+                                "NEWS",
+                                "PARTNERED",
+                                "VIP_REGIONS",
+                                "VANITY_URL"
+                            ],
+                            "permissions_new": "104189505"
+                        },
+                        {
+                            "id": "646690105020514305",
+                            "name": "Awm Bilişim Hizmetleri",
+                            "icon": "a_9048d4dd85f7bfa673e0f6a371829ecf",
+                            "owner": false,
+                            "permissions": 37084736,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "BANNER",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "PREVIEW_ENABLED",
+                                "NEWS",
+                                "VANITY_URL"
+                            ],
+                            "permissions_new": "37084736"
+                        },
+                        {
+                            "id": "681184274011258907",
+                            "name": "ᴘᴀʀs ʀᴏʟᴇᴘʟᴀʏ | 𝟿 ᴅɪʏᴀʀ",
+                            "icon": "a_696968905dfcf53a53aca4fa1af79498",
+                            "owner": false,
+                            "permissions": 37047360,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "WELCOME_SCREEN_ENABLED",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "BANNER",
+                                "NEWS"
+                            ],
+                            "permissions_new": "37047360"
+                        },
+                        {
+                            "id": "683286631943634971",
+                            "name": "ParsRP-DarkRP --> #EVDEKAL",
+                            "icon": "30b0507bcdfeb008beff44945e681955",
+                            "owner": false,
+                            "permissions": 37080640,
+                            "features": [
+                                "NEWS",
+                                "COMMUNITY"
+                            ],
+                            "permissions_new": "37080640"
+                        },
+                        {
+                            "id": "707632395397890058",
+                            "name": "CodeWork #BAKIM",
+                            "icon": "af05eab65a9c57b0f8554e91df9e7c78",
+                            "owner": true,
+                            "permissions": 2147483647,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "WELCOME_SCREEN_ENABLED",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "PREVIEW_ENABLED",
+                                "NEWS"
+                            ],
+                            "permissions_new": "2147483647"
+                        },
+                        {
+                            "id": "712978502176997380",
+                            "name": "jkood Test",
+                            "icon": "5f5fb5056688e5b1a62ab13d4cab37ff",
+                            "owner": true,
+                            "permissions": 2147483647,
+                            "features": [],
+                            "permissions_new": "2147483647"
+                        },
+                        {
+                            "id": "741807561581264916",
+                            "name": "</> Kinsta Codes",
+                            "icon": "a_93e18422397af4e3f8b4761e54b82a63",
+                            "owner": false,
+                            "permissions": 36818497,
+                            "features": [],
+                            "permissions_new": "36818497"
+                        },
+                        {
+                            "id": "746647015643152404",
+                            "name": "Mad Jailbreak",
+                            "icon": "11b92d57bc98d8f73e435f2c03c4a622",
+                            "owner": true,
+                            "permissions": 2147483647,
+                            "features": [],
+                            "permissions_new": "2147483647"
+                        },
+                        {
+                            "id": "763141301985214485",
+                            "name": "RedHatzz",
+                            "icon": "7f600d4dbdbf14fc052bd0a7de50aec2",
+                            "owner": false,
+                            "permissions": 104189505,
+                            "features": [
+                                "NEWS",
+                                "COMMUNITY"
+                            ],
+                            "permissions_new": "104189505"
+                        },
+                        {
+                            "id": "766603303445463060",
+                            "name": "Eightborn JailBreak",
+                            "icon": "a_db999fd5f5ac4a4b6292083b9da5c58e",
+                            "owner": false,
+                            "permissions": 37030913,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "NEWS",
+                                "WELCOME_SCREEN_ENABLED"
+                            ],
+                            "permissions_new": "37030913"
+                        },
+                        {
+                            "id": "767027346308857897",
+                            "name": "🎄 Pink Code #BotList",
+                            "icon": "a_c324d623781e4076e5a254d6b5edc3ea",
+                            "owner": false,
+                            "permissions": 37080641,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "BANNER",
+                                "MEMBER_VERIFICATION_GATE_ENABLED",
+                                "PREVIEW_ENABLED",
+                                "NEWS",
+                                "WELCOME_SCREEN_ENABLED",
+                                "VANITY_URL"
+                            ],
+                            "permissions_new": "37080641"
+                        },
+                        {
+                            "id": "771400046766718986",
+                            "name": "BORP | Community",
+                            "icon": "62697df39c1ab388db8146c0d8345677",
+                            "owner": false,
+                            "permissions": 512,
+                            "features": [
+                                "ANIMATED_ICON",
+                                "WELCOME_SCREEN_ENABLED",
+                                "INVITE_SPLASH",
+                                "COMMUNITY",
+                                "BANNER",
+                                "NEWS"
+                            ],
+                            "permissions_new": "512"
+                        },
+                        {
+                            "id": "772791113169371146",
+                            "name": "uiy corona",
+                            "icon": "b372f50f68fd12ac9f0b75ea934b1d75",
+                            "owner": false,
+                            "permissions": 104320577,
+                            "features": [],
+                            "permissions_new": "104320577"
+                        },
+                        {
+                            "id": "774971396925292544",
+                            "name": "Dyatlov Family",
+                            "icon": "6fea9f1cd57a41e5c4812e34a4a14278",
+                            "owner": false,
+                            "permissions": 37215809,
+                            "features": [],
+                            "permissions_new": "37215809"
+                        }
+                    ],
+                    "fetchedAt": "2021-01-19T18:55:47.847Z"
+                },
+                "date": "1/19/2021"
+            }
+        }
+    }
+]

@@ -1,0 +1,23 @@
+<title>CodeWork | İstek {{istek.isim}}</title>
+<main>
+
+
+<div id="sunucusresmi">
+  <p class="card-text">{{this.desc}}</p>
+  <hr><p class="card-text text-center"><b> İsteyen:</b> {{istek.k_adi}} #{{istek.k_tagi}}</p>
+  <p class="card-text text-center"><b> İsteyen İD:</b> Yakında</p>
+</div>
+  
+  <div class="container">
+  <pre class="kodyazirengi">
+  <p class="card-text">İstenilen Kod: {{istek.isim}}</p>
+  <p class="card-text">İstenilen Kod Sürümü: {{istek.sürüm}}</p>
+  <p class="card-text">İstenilen Kod Açıklaması: {{istek.desc}}</p>
+  <p class="card-text">Not: {{istek.not}}</p>
+  </pre>  
+  </pre>
+  </div>
+<center><a href="/sil/{{istek.kod_rank}}/{{istek.id}}" class="btn btn-outline-danger btn-lg " style="margin: 1rem;">İsteği Sil</a></center>
+</div>
+  </div>
+</main>

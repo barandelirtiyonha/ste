@@ -1,0 +1,27 @@
+<title>CodeWork | {{kod.isim}}</title>
+<main>
+
+
+<div id="sunucusresmi">
+  <p class="card-text">{{this.desc}}</p>
+  <hr><p class="card-text text-center"><b> Paylaşan: <a href="https://www.codeworkweb.cf/profil/244912891734654977" ></b> {{kod.k_adi}}</p></a>
+</div>
+  <p class="card-text text-center"><b>{{kod.isim}} - {{kod.sürüm}}</b></p>
+  <p class="card-text text-center">{{kod.desc}}</p>
+  <br>
+  <div class="container">
+  <pre class="kodyazirengi">
+  <p class="card-text"><i type="button" class="far fa-copy" id="copy_main"></i> Kod</p>
+  <p class="card-text">Not: {{kod.not}}</p>
+<code>{{kod.main_code}}</code>
+  <center id="code_main" hidden>{{kod.main_code}}</center>
+  <p class="card-text"><i type="button" class="far fa-copy" id="copy_komutlar"></i> Kod</p>
+  <p class="card-text">Not: {{kod.not2}}</p>
+    <code2>{{kod.komutlar_code}}</code2>
+  </pre>  
+  </pre>
+  </div>
+<center><a href="/sil/{{kod.kod_rank}}/{{kod.id}}" class="btn btn-outline-danger btn-lg " style="margin: 1rem;">Kodu Sil</a></center>
+</div>
+  </div>
+</main>

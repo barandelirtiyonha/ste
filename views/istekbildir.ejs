@@ -1,0 +1,26 @@
+<title>CodeWork | İstek Bildir</title>
+<main>
+  <div class="container">
+    <h1 class="text-center">
+      CodeWork İstek Bildirme Sistemi
+    </h1>
+    <hr>
+    <div class="bg-dark">
+      <form action="paylasim" method="POST">
+    <div class="input-group">
+      <input type="text" class="form-control" name="kod_adi" placeholder="İstek Kodun Adı" required>
+      <div class="input-group-append">
+        <select class="custom-select text-dark bg-dark" name="kod_rank" id="rank_choice" required>
+          <option value="istekler">İstekler</option>
+        </select>
+      </div>
+    </div><br>
+      <input type="text" class="form-control" name="desc" placeholder="Açıklama" required><br>
+        <input type="text" class="form-control" name="sürüm" placeholder="Kod Sürümü (V11 Veya V12 Yazınız.)" required><br>
+        <input type="text" class="form-control" name="not" placeholder="Varsa bir not girilecek yoksa yok yazınız." required><br>
+      <input type="text" class="form-control" name="k_adi" value="{{user.username}}" required READONLY hidden><br>
+      <button type="submit" class="btn btn-outline-primary btn-lg">Gönder</button>
+    </form>
+    </div>
+  </div>
+</main>

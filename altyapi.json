@@ -1,0 +1,22 @@
+[
+    {
+        "kodlar": {
+            "test": {
+                "isim": "test",
+                "sürüm": "v12",
+                "not": "test",
+                "not2": "test",
+                "id": "m7ajYfSVM1",
+                "desc": "test",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "main_code": "test",
+                "komutlar_code": "test",
+                "kod_rank": "altyapi",
+                "k_adi": "Barann",
+                "k_tagi": "7400",
+                "idsi": "536470606166622208",
+                "date": "1/16/2021"
+            }
+        }
+    }
+]

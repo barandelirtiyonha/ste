@@ -1,0 +1,445 @@
+pre code{
+  background-color: #2c3341;
+  border-left: .5rem solid rgba(0,0,0,.5);
+  display: block;
+  overflow-y: auto;
+  text-align: left;
+  word-break: break-all;
+  padding: 1rem;
+  position: relative;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto!important;
+  margin-left:auto;
+  margin-right:auto; 
+}
+code{
+  background-color: #2c3341;
+  border-left: .5rem solid rgba(0,0,0,.5);
+  display: block;
+  overflow-y: auto;
+  text-align: left;
+  word-break: break-all;
+  padding: 1rem;
+  position: relative;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto!important;
+  margin-left:auto;
+  margin-right:auto;  
+}
+code2{
+  background-color: #2c3341;
+  border-left: .5rem solid rgba(0,0,0,.5);
+  display: block;
+  overflow-y: auto;
+  word-break: break-all;
+  padding: 1rem;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+.kodyazirengi {
+  color: white;
+}
+.twPc-div {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: .4rem;
+    height: 50%;
+    max-width: 100%;
+}
+.twPc-bg {
+    background-image: url("https://i.pinimg.com/originals/6d/fb/c7/6dfbc74564ed8ed039734fa91b2d8f9a.gif");
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #e1e8ed;
+    border-radius: 4px 4px 0 0;
+    height: 95px;
+    width: 100%;
+}
+.twPc-block {
+    display: block !important;
+}
+.twPc-button {
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;
+}
+.twPc-avatarLink {
+    border-radius: 6px;
+    display: inline-block !important;
+    margin: -30px 5px 0 8px;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
+}
+.twPc-avatarImg {
+    border: 2px solid #fff;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}
+.twPc-divUser {
+    margin: 5px 0 0;
+}
+.twPc-divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.twPc-divName a {
+    color: inherit !important;
+}
+.twPc-divStats {
+    margin-left: 11px;
+    padding: 10px 0;
+}
+.twPc-Arrange {
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    table-layout: auto;
+  margin: 10px 20px;
+}
+ul.twPc-Arrange {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.twPc-ArrangeSizeFit {
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+}
+.twPc-ArrangeSizeFit a:hover {
+    text-decoration: none;
+}
+.twPc-StatValue {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out 0s;
+}
+.twPc-StatLabel {
+    color: #8899a6;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+}
+.footeralt {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    right: 10px;
+    background-color: #;
+    line-height: 100px;
+    margin: 1px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.index-button1 {
+  background-color: #2a2d2f; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.index-button2 {
+  background-color: #c4aa15; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.index-button3 {
+  background-color: #1b7ce3; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.index-button4 {
+  background-color: #b81135; /* Green             */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.index-button1:hover{
+  color:#ffffff;
+  background-color:#222426;
+}
+
+.index-button2:hover{
+  color:#ffffff;
+  background-color:#a69010;
+}
+
+.index-button3:hover{
+  color:#ffffff;
+  background-color:#1257a1;
+}
+
+.index-button4:hover{
+  color:#ffffff;
+  background-color:#870d28;
+}
+.testo{
+font-size:5px;
+font-family: cairo,;
+}
+.alt{
+ width: 100%;
+ height: 100%;
+}
+.servercard{
+  width:350px;
+  height:200px;
+  background-image:url("https://i.pinimg.com/originals/6d/fb/c7/6dfbc74564ed8ed039734fa91b2d8f9a.gif");
+  padding:155px 0 0 0;
+}
+.card2{
+  width:80px;
+  height:80px;
+   background-image:url("");
+}
+.certificate-botimg{
+margin:0 350px 0 0;
+  border-radius: 20px; 
+}
+.avatarmargin{
+  
+  margin :-85px 0 0 0 ;
+    
+}
+.ASD{
+      border-style: solid;
+      border-width: 3px;
+      border-color: #2d2c2c;
+      border-radius: 5px; 
+      background-color:#1d1d1d;
+}
+.medcezir{
+  padding:0px;
+  margin:0px;
+    
+  ;
+  
+  
+}
+.fondik{
+font-size:15px;
+font-family: cairo,sans-serif;
+  
+}  
+.panel1{
+
+}
+
+.allpanel{
+  
+  
+  width:100%;
+  height:100%;
+}
+  
+.giris-yap{
+  color:#1b7ce3
+}
+.ccc{
+  margin:0 0 0 0px;
+}
+.utku{
+  margin:0 0 0 0;
+}
+body{
+  overflow-x: hidden !important;
+}
+.kutucuk{
+  width:1000px;
+  height:200px;
+  background-color:#2c3341;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  float: right;
+  max-width: 80%;
+  display: block;
+  padding: 28px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.kutucuk2{
+  width:450px;
+  height:200px;
+  background-color:#1d1d1d;
+  font-size: 20px;
+  margin: 20px;
+  position: relative;
+  left: 33px;
+  text-align: center;
+  max-width: 80%;
+  display: block;
+  padding: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.kutucuk3{
+  width:450px;
+  height:200px;
+  background-color:#1d1d1d;
+  font-size: 20px;
+  margin: 20px;
+  float: left;
+  text-align: center;
+  max-width: 80%;
+  display: block;
+  padding: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.kutuyazı{
+  font-size: 15px;
+  margin: 150px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  margin-left:30px;
+  margin-right:30px;
+  margin-top: 0px;
+}
+.alt-kisim{
+  width: 1500px;
+  height: 100px;
+  background: #2c3341;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 150px;
+}
+.sosyal-icon{
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+}
+.kodsahiptexti{
+  font-size:15px;
+  font-family: cairo,sans-serif;
+}
+.kod-kutusu{
+  width: 150px;
+  height: 50px;
+  background: #2c3341;
+  left: 33px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.contributor {
+    margin: 10px 5px;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 10px;
+    background: rgb(41 45 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.tab-container {
+        width: 471px;
+    }
+ 
+.tab-container .tab-menu {
+        background-color: cornflowerblue;
+        overflow: hidden;
+    }
+ 
+.tab-container .tab-menu button {
+        background-color: cornflowerblue;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 16px 48px;
+        transition: 0.3s;
+        font-size: 15px;
+        color: #fff;
+    }
+ 
+.tab-container .tab-menu button:hover {
+        background-color: #21759B;
+    }
+ 
+.tab-container .tab-menu button.active {
+        background-color: #21759B;
+    }
+ 
+.tab-container .tab-content {
+        display: none;
+        border: 1px solid #ccc;
+        padding: 6px 12px;
+        border-top: none;
+        animation: fadeEffect 1s;
+    }
+ 
+.tab-container .tab-content.active {
+        display: block;
+        background-color: #fff;
+    }
+ 
+@keyframes fadeEffect {
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }

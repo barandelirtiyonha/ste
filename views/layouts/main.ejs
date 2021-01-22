@@ -1,0 +1,98 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ 
+    
+  </head>
+
+  <body class="bg-dark text-white">  
+    
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav" style="background-color: #2c3341;">
+      <a class="navbar-brand" href="/"><img style="border-radius:50%" width="35" height="35" src="https://cdn.discordapp.com/attachments/737267978751443004/752266556859220066/cwpng.jpg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/anasayfa">Anasayfa</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Kodlar
+     </a>
+            
+            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/kategori/javascript" style="color: #fffff;">Javascript</a>
+              <a class="dropdown-item" href="/kategori/javascriptplus" style="color: #fffff;"> Javascript+</a>
+              <a class="dropdown-item" href="/kategori/html" style="color: #fffff"> Html</a>
+              <a class="dropdown-item" href="/kategori/altyapi" style="color: #fffff;">Altyapı</a>
+             
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ek
+     </a>
+            
+            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/sss" style="color: #fffff;">S.S.S</a>
+              <a class="dropdown-item" href="/v11tov12" style="color: #fffff;">Bakım</a>
+            </div>
+          </li>
+          
+      <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Yetkili Panel
+     </a>
+            
+            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/istekler" style="color: #fffff;">İstekler</a>
+            </div>
+          </li>
+  
+
+          </li>
+          
+          
+          
+        </ul>
+       
+       {{#if user}}  
+      
+          <div class="dropdown">
+         <div class="utku">
+           
+               <a class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{user.username}} <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item profilim" href="/profil/{{user.id}}"><i class="fas fa-user"></i> Profilim</a>
+               <a class="dropdown-item profilim" href="/kodekle"><i class="fas fa-file-code"></i> Kod Ekle</a>
+              <a class="dropdown-item profilim" href="/istekbildir"><i class="fas fa-file-code"></i> İstek Bildir</a>
+              <a class="dropdown-item cikis-yap" href="/cikis"><i class="fas fa-sign-out-alt"></i> Çıkış Yap</a>
+            </div>
+          </div>
+</div>
+        
+        {{else}}
+           <a type="button" class="giris-yap" href="/giris"><i class="fas fa-sign-in-alt "></i> Giriş Yap </a>
+        {{/if}}
+      </div>
+    </nav>
+    
+    
+    <%= body %>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

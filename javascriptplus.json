@@ -1,0 +1,22 @@
+[
+    {
+        "kodlar": {
+            "Anti Raid": {
+                "isim": "Anti Raid",
+                "sürüm": "V12",
+                "not": "Main dosyasına atılacak.",
+                "not2": "2 side ayrı kod olarak atılacak komutlara",
+                "id": "1KyNuaDmhn",
+                "desc": "Sunucuya giren botu otomatik banlar izin vermediğiniz sürece devam eder banlamaya.",
+                "icon": "https://cdn.discordapp.com/avatars/536470606166622208/c28b36020096094bd7efdfc94105e804.png",
+                "main_code": "client.on(\"guildMemberAdd\", async member => {\r\nlet kanal = await db.fetch(`antiraidK_${member.guild.id}`)== \"anti-raid-aç\"\r\n  if (!kanal) return;  \r\n  var darknesyt = member.guild.owner\r\n  if (member.user.bot === true) {\r\n     if (db.fetch(`botizin_${member.guild.id}.${member.id}`) == \"aktif\") {\r\n    let darknesguardv2 = new Discord.MessageEmbed()\r\n      .setColor(\"RANDOM\")\r\n      .setThumbnail(member.user.avatarURL())\r\n      .setDescription(`**${member.user.tag}** (${member.id}) adlı bota bir yetkili izin verdi eğer kaldırmak istiyorsanız **!bot-izni kaldır <botid>**.`);\r\n    darknesyt.send(darknesguardv2);\r\n     } else {\r\n       let izinverilmemişbot = new Discord.MessageEmbed()\r\n      .setColor(\"RANDOM\")\r\n      .setThumbnail(member.user.avatarURL())\r\n      .setDescription(\"**\" + member.user.tag +\"**\" + \" (\" + member.id+ \") \" + \"adlı bot sunucuya eklendi ve banladım eğer izin vermek istiyorsanız **\" + \"!bot-izni ver <botid>**\")\r\n       member.ban();// Eğer sunucudan atmak istiyorsanız ban kısmını kick yapın\r\n       darknesyt.send(izinverilmemişbot)\r\n}\r\n  }\r\n});",
+                "komutlar_code": "//komutlar/antiraid.js\r\nconst Discord = require(\"discord.js\");\r\nconst db = require(\"quick.db\");\r\nexports.run = (client, message, args) => {\r\n if(!message.member.permissions.has(\"ADMINISTRATOR\")) return message.reply(\"bu komutu kullanmak için `Yönetici` yetkisine sahip olmalısın.\")\r\n  if (args[0] == \"aç\") {\r\n    if (db.has(`antiraidK_${message.guild.id}`) === true) {\r\n      return message.channel.send(\"Anti-raid zaten açılmış.\");\r\n    }\r\n    db.set(`antiraidK_${message.guild.id}`, \"anti-raid-aç\");\r\n    message.reply(\"Anti-raid sistemi başarıyla açıldı\");\r\n  }\r\n \r\n  if (args[0] == \"kapat\") {\r\n    if (db.has(`antiraidK_${message.guild.id}`) === false) {\r\n      return message.channel.send(\r\n        \"Anti-raid açılmamış. Açmak için **!anti-raid aç**\"\r\n      );\r\n    }\r\n    db.delete(`antiraidK_${message.guild.id}`, \"anti-raid-aç\");\r\n    message.reply(\"Anti-raid sistemi başarıyla kapatıldı\");\r\n  }\r\n  if (!args[0])\r\n    return message.reply(\r\n      \"Lütfen geçerli işlem girin. Örnek: **!anti-raid aç/kapat**\"\r\n    );\r\n};\r\nexports.conf = {\r\n  enabled: true,\r\n  guildOnly: true,\r\n  aliases: ['antiraid'],\r\n  permLevel: 0\r\n};\r\nexports.help = {\r\n  name: \"anti-raid\"\r\n};\r\n-------------------------------------------\r\n//komutlar/antiraid-botizni.js\r\nconst Discord = require(\"discord.js\");\r\nconst db = require(\"quick.db\");\r\nexports.run = (client, message, args) => {\r\n  if(!message.member.permissions.has(\"ADMINISTRATOR\")) return message.reply(\"bu komutu kullanmak için `Yönetici` yetkisine sahip olmalısın.\")\r\n  if (db.has(`antiraidK_${message.guild.id}`) === false) {\r\n    return message.channel.send(\r\n      \"Anti-raid açılmamış. Açmak için **-anti-raid aç**\"\r\n    );\r\n  }\r\n  if (!args[1]) return message.reply(\"Lütfen bir bot id si girin\");\r\n \r\n  if (isNaN(args[1])) {\r\n    return message.reply(\"Sadece ID\");\r\n  }\r\n  if (args[0] == \"ver\") {\r\n    client.users.cache.get(args[0]);\r\n    db.set(`botizin_${message.guild.id}.${args[1]}`, \"aktif\");\r\n    message.reply(args[1] + \"ID li bota izin verildi\");\r\n  }\r\n  if (args[0] == \"kaldır\") {\r\n    db.delete(`botizin_${message.guild.id}.${args[1]}`, \"aktif\");\r\n    message.reply(args[1] + \" ID li botun izni kaldırıldı\");\r\n  }\r\n};\r\nexports.conf = {\r\n  enabled: true,\r\n  guildOnly: true,\r\n  aliases: [],\r\n  permLevel: 0\r\n};\r\nexports.help = {\r\n  name: \"bot-izni\"\r\n};",
+                "kod_rank": "javascriptplus",
+                "k_adi": "Barann",
+                "k_tagi": "7400",
+                "idsi": "536470606166622208",
+                "date": "1/14/2021"
+            }
+        }
+    }
+]

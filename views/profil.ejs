@@ -1,0 +1,157 @@
+<html><head>
+  <title>CodeWork | {{member.user.username}}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script data-ad-client="ca-pub-2406681510092524" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/715886415296069652/759848282422771732/New_Project_63_7E2F688.png">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=b1579cbd7df3c885978321b82fddd11d">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173555167-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173555167-1');
+</script>
+
+</head>
+<body id="page-top">
+  <div class="spinner-wrapper" style="display: none;">
+     <div class="spinner">
+        <div>
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve" width="30" height="30">
+              <rect fill="#7289DA" width="15" height="15">
+                 <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="1.7s" values="0,0;15,0;15,15;0,15;0,0;" repeatCount="indefinite"></animateTransform>
+              </rect>
+              <rect x="15" fill="#2C2F33" width="15" height="15">
+                 <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="1.7s" values="0,0;0,15;-15,15;-15,0;0,0;" repeatCount="indefinite"></animateTransform>
+              </rect>
+              <rect x="15" y="15" fill="#7289DA" width="15" height="15">
+                 <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="1.7s" values="0,0;-15,0;-15,-15;0,-15;0,0;" repeatCount="indefinite"></animateTransform>
+              </rect>
+              <rect y="15" fill="#2C2F33" width="15" height="15">
+                 <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="1.7s" values="0,0;0,-15;15,-15;15,0;0,0;" repeatCount="indefinite"></animateTransform>
+              </rect>
+           </svg>
+        </div>
+     </div>
+  </div>
+                 
+              </ul>
+           </div>
+        </div>
+     </nav>
+     <br>
+  </div>
+   <div class="container-fluid">
+      <div class="row mb-3">
+         <div class="col-lg-4">
+            <div class="card mb-3">
+               <div draggable="false" class="card-body text-center shadow">
+                 <img alt="Avatar" src="{{avatarURL}}" class="twPc-avatarImg">
+                  <div class="mb-3"><a>{{member.user.username}}
+          #{{member.user.discriminator}}</a></div>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card shadow mb-4">
+               <div class="card-header py-3" style="background-color: #2c3341;">
+                  <center>
+                     <h6 class="text-primary font-weight-bold m-0" style="background-color: #2c3341;">Hesap Bilgileri</h6>
+                  </center>
+               </div>
+               <div class="card-body">
+                  <h4 class="small font-weight-bold">Kullanıcı Adı<span class="float-right">{{member.user.username}}</span></h4>
+                  <h4 class="small font-weight-bold">Discrim<span class="float-right">{{member.user.discriminator}}</span></h4>
+                  <h4 class="small font-weight-bold">ID<span class="float-right">{{member.user.id}}</span></h4>
+                  <h4 class="small font-weight-bold">Hesap Kuruluş Tarihi<span class="float-right">{{kurulus}}</span></h4>
+                  <h4 class="small font-weight-bold">Rozetler<span class="float-right">  
+
+                     
+                     [Bakımda]
+                     
+                     </span>
+                  </h4>
+                 <h4 class="small font-weight-bold">Paylaştığı Kod Sayısı<span class="float-right">{{#if perms.kodcu}}
+              <span>{{stats.paylasilan}}</span>
+             {{else}}
+              <span>Yok</span>{{/if}}</h4>
+               
+             <span>
+               {{#if perms.yetkili}}
+            <span>Kurucu</span>
+          {{else}}
+           {{#if perms.admin}}
+            <span>Genel Sorumlu</span>
+          {{else}}
+             {{#if perms.kodcu}}
+            <span>Kod Paylaşımcı</span>
+          {{else}}
+            {{#if perms.destekekibi}}
+            <span>Destek Ekibi</span>
+          {{else}}
+            {{#if perms.destekci}}
+              <span>Booster</span>
+             {{else}}
+              <span>Üye</span>
+            {{/if}}
+          {{/if}}
+         {{/if}}
+          {{/if}}
+           {{/if}}
+              </span>
+                
+                  
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <br> 
+<br> 
+<br> 
+<br> 
+   <br> 
+   <footer style="font-family: 'Lato', cursive;" class="page-footer font-small special-color-dark pt-4 ">
+   <div class="container" style="padding:10px">
+      <ul class="list-unstyled list-inline text-center">
+         <li class="list-inline-item">
+        <a target="_blank" href="facebook" class="sosyal-icon" style="color: #3b5998;">
+  <i class="fab fa-facebook"></i>
+  </a>
+      <a target="_blank" href="instagram" class="sosyal-icon" style"color: #">
+  <i style="background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;" class="fab fa-instagram"></i>
+  </a>
+  
+  <a target="_blank" href="github" class="sosyal-icon" style="color: white;">
+  <i class="fab fa-github"></i>
+  </a>
+  
+  <a target="_blank" href="/youtube" class="sosyal-icon" style="color: #bb0000;">
+  <i class="fab fa-youtube"></i>
+  </a>
+    
+    <a target="_blank" href="gmail" class="sosyal-icon" style="color: #AC3834;">
+  <i class="far fa-envelope"></i>
+  </a>
+  
+   <a target="_blank" href="/davet" class="sosyal-icon">
+  <i class="fab fa-discord"></i>
+  </a>
+   </div>
+</footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+   <script src="/assets/js/script.min.js?h=823eb1733a0a81fa385a52d2e8e60900"></script>
+   
+</body></html>
